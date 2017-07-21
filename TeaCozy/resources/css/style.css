@@ -1,0 +1,161 @@
+
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2,h3,h4{
+  margin: 0px;
+  padding: 10px;
+}
+/* Header Section */
+header{
+  background-color: black;
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  padding-left:10px;
+  width: 100%;
+  height:69px;
+  justify-content: space-between;
+  z-index: 1;
+  margin-top: -8px;
+  align-items: center;
+}
+
+header img{
+  height: 50px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+header nav{
+  display: flex;
+  text-decoration: underline;
+  align-items: center;
+  width:100%;
+  text-align: right;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 10px;
+}
+
+a{
+  color:seashell;
+}
+
+/* Content Section*/
+
+.content{
+  padding-top: 69px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Mission Section (Main)*/
+#mission.sect{
+  background-image: url('../img/mission.jpg');
+  max-width: 1200px;
+  height:700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#mission-info{
+  background-color: black;
+  width:100%;
+  margin: 0px 0px 0px 0px;
+}
+
+/* Teas Section (middle) */
+
+#teas
+{
+  margin:80px;
+}
+
+#teash2, #teash4{
+  background-color: black;
+  width: 100%
+}
+
+.list-items{
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-content: space-around;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.img-small img{
+  height: 200px;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.img-small h4{
+  margin: 0;
+  padding: 5px;
+}
+
+/* Locations Section (last) */
+
+#locations{
+  background-image: url('../img/teacup.jpg');
+  flex-basis: 500px;
+  width:1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 70px;
+}
+
+.locaions h2{
+  margin:15px;
+}
+
+.loc-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.loc-sect{
+  background-color: black;
+  flex-basis: 280px;
+  margin: 5px 22px;
+  padding: 10px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.loc-sect p{
+  margin: 22px 0px;
+}
+
+.info{
+  height:200px;
+}
+
+/* Info and Footer Section */
+footer{
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-left: 20px;
+}
